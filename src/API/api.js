@@ -1,5 +1,5 @@
 const Api = {
-    apiUrl: "http://localhost:3001/tarefas",
+    apiUrl: "mongodb+srv://@vagas.8oeqf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     fetchGetAll: () => fetch(Api.apiUrl),
     fetchGetById: (id) => fetch(`${Api.apiUrl}/${id}`),
     fetchPost: (tarefa) => {
